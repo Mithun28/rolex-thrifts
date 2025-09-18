@@ -1,5 +1,5 @@
 import gs_logo from "./gs_logo.jpg"
-import happy_store from "./happy_store.webp"
+import happy_store from "./Rolex Thrifts Logo.png"
 import upload_area from "./upload_area.svg"
 import hero_model_img from "./hero_model_img.png"
 import hero_product_img1 from "./hero_product_img1.png"
@@ -28,7 +28,7 @@ export const assets = {
     product_img7, product_img8, product_img9, product_img10, product_img11, product_img12,
 }
 
-export const categories = ["Headphones", "Speakers", "Watch", "Earbuds", "Mouse", "Decoration"];
+export const categories = ["Bags", "T-Shirts", "Sunglasses", "Dresses", "Skirts", "Jackets"];
 
 export const dummyRatingsData = [
     { id: "rat_1", rating: 4.2, review: "I was a bit skeptical at first, but this product turned out to be even better than I imagined. The quality feels premium, it's easy to use, and it delivers exactly what was promised. I've already recommended it to friends and will definitely purchase again in the future.", user: { name: 'Kristin Watson', image: profile_pic1 }, productId: "prod_1", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
@@ -40,12 +40,12 @@ export const dummyRatingsData = [
 ]
 
 export const dummyStoreData = {
-    id: "store_1",
+    id: "rolex-thrifts",
     userId: "user_1",
-    name: "Happy Shop",
-    description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
-    username: "happyshop",
-    address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+    name: "ROLEX THRIFTS",
+    description: "Shop Rolex Thrifts – your online thrift store for timeless fashion, luxury finds, and sustainable style at unbeatable prices. Discover hidden gems, second-hand treasures, and eco-friendly fashion that keep you stylish without overspending.",
+    username: "rolexshop",
+    address: "VIT Chennai, Chhenai-600127",
     status: "approved",
     isActive: true,
     logo: happy_store,
@@ -55,8 +55,8 @@ export const dummyStoreData = {
     updatedAt: "2025-09-04T09:04:44.273Z",
     user: {
         id: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "Great Stack",
-        email: "user.greatstack@gmail.com",
+        name: "rolex",
+        email: "rolex.thrifts@gmail.com",
         image: gs_logo,
     }
 }
